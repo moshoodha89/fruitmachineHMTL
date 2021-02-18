@@ -1,0 +1,93 @@
+/* .quarter{
+    background-color: aqua;
+    width: 25%;
+    display:inline-block;
+    border: 3px solid red;
+    box-sizing: border-box; 
+    /* box-sizing helps to normalize the box by removing the white space. 
+    Line spacing is significant in in-line block */
+
+
+
+.container {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    font-size: 30px;
+    
+    
+}
+
+.button-style {
+    margin-top: 50px;
+}
+
+
+button {
+    background-color: aqua;
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid aqua;
+}
+
+
+
+button:hover {
+    background-color: white;
+}
+
+
+#first {
+    /* overflow: auto; */
+    background-color: rgb(247, 245, 245);
+    width: 50px;
+    height: 250px;
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+    border: solid 1px red;
+}
+
+.second {
+    /* overflow-y: scroll; */
+    background-color: rgb(247, 245, 245);
+    width: 50px;
+    height: 250px;
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+    border: solid 1px red;
+    scroll-behavior: smooth;
+    
+}
+
+.third {
+    /* overflow: auto; */
+    background-color:  rgb(247, 245, 245);
+    width: 50px;
+    height: 250px;
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+    border: solid 1px red;
+    
+}
+
+.fourth {
+    /* overflow: auto; */
+    background-color:  rgb(247, 245, 245);
+    width: 50px;
+    height: 250px;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(192, 175, 175);
+    border: solid 1px red;
+    
+}
+
+
+#first, .second, .third, .fourth {
+    overflow: hidden;
+}
